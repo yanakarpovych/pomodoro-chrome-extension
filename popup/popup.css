@@ -1,0 +1,22 @@
+body {
+  width: 300px;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.header img {
+  width: 48px;
+  height: 48px;
+}
+
+#btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
