@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="options.css" />
+    <title>Pomodoro Timer Settings</title>
+  </head>
+  <body>
+    <h1>Pomodoro Timer Settings</h1>
+
+    <form id="options-form">
+      <label for="time-option"> Timer duration (minutes): </label>
+
+      <input type="number" id="time-option" min="1" max="180" required />
+
+      <button type="submit">Save Settings</button>
+    </form>
+
+    <p id="status" role="status"></p>
+
+    <script src="options.js"></script>
+  </body>
+</html>
